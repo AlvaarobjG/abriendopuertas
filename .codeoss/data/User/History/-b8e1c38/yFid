@@ -1,0 +1,17 @@
+comiit largo
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	modified:   .codeoss/data/logs/20251031T163049/exthost1/output_logging_20251031T163056/6-EditorConfig.log
+#	modified:   .codeoss/data/logs/20251031T163049/exthost1/output_logging_20251031T163056/8-Gemini Code Assist.log
+#	modified:   .codeoss/data/logs/20251031T163049/exthost1/remoteexthost.log
+#	modified:   .codeoss/data/logs/20251031T163049/exthost1/vscode.git/Git.log
+#	new file:   .codeoss/data/logs/20251031T163049/exthost1/vscode.github-authentication/GitHub Authentication.log
+#	modified:   .codeoss/data/logs/20251031T163049/exthost1/vscode.github/GitHub.log
+#	new file:   .npm/_logs/2025-10-31T16_52_30_820Z-debug-0.log
+#
+# Changes not staged for commit:
+#	modified:   .codeoss/data/logs/20251031T163049/exthost1/vscode.git/Git.log
+#
