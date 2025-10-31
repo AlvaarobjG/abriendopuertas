@@ -1,0 +1,48 @@
+steps:
+  # 1. Autenticarse en Artifact Registry
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
+
+  # 2. Construir la imagen con Docker
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+        'build',
+        '-t',
+        'us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA',
+        '.'
+      ]
+
+  # 3. Subir la imagen a Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+        'push',
+        'us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA'
+      ]
+
+  # 4. Desplegar en Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      [
+        'run',
+        'deploy',
+        'java-hello-world',
+        '--image=us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA',
+        '--platform=managed',
+        '--region=us-central1',
+        '--allow-unauthenticated',
+        '--quiet'
+      ]
+
+images:
+  - 'us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  
