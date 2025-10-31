@@ -144,3 +144,12 @@
 2025-10-31 16:46:00.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2312
 2025-10-31 16:46:06.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2311
 2025-10-31 16:46:11.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2313
+2025-10-31 16:52:36.124 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:52:36.228 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:52:41.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:52:46.438 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:52:47.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:52:51.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:52:56.612 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:53:01.534 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2310
+2025-10-31 16:53:04.089 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
