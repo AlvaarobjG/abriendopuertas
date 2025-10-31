@@ -7,14 +7,16 @@ steps:
       - |
         gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
 
-  # 2. Construir la imagen con Docker
+  # 2. Construir la imagen con Docker (desde carpeta java-hello-world)
   - name: 'gcr.io/cloud-builders/docker'
     args:
       [
         'build',
+        '-f',
+        './java-hello-world/Dockerfile',
         '-t',
-        'us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA',
-        '.'
+        'us-central1-docker.pkg.dev/abriendopuertas/java-backend-repo/java-backend:$COMMIT_SHA',
+        './java-hello-world'
       ]
 
   # 3. Subir la imagen a Artifact Registry
@@ -22,7 +24,7 @@ steps:
     args:
       [
         'push',
-        'us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA'
+        'us-central1-docker.pkg.dev/abriendopuertas/java-backend-repo/java-backend:$COMMIT_SHA'
       ]
 
   # 4. Desplegar en Cloud Run
@@ -32,8 +34,8 @@ steps:
       [
         'run',
         'deploy',
-        'java-hello-world',
-        '--image=us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA',
+        'java-backend',
+        '--image=us-central1-docker.pkg.dev/abriendopuertas/java-backend-repo/java-backend:$COMMIT_SHA',
         '--platform=managed',
         '--region=us-central1',
         '--allow-unauthenticated',
@@ -41,8 +43,7 @@ steps:
       ]
 
 images:
-  - 'us-central1-docker.pkg.dev/pruebas38grados/java-backend-repo/java-hello-world:$COMMIT_SHA'
+  - 'us-central1-docker.pkg.dev/abriendopuertas/java-backend-repo/java-backend:$COMMIT_SHA'
 
 options:
   logging: CLOUD_LOGGING_ONLY
-  
