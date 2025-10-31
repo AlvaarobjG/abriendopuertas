@@ -21,11 +21,8 @@ steps:
 
   # 3. Subir la imagen a Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args:
-      [
-        'push',
-        'us-central1-docker.pkg.dev/abriendopuertas/java-backend-repo/java-backend:$COMMIT_SHA'
-      ]
+    args: ['push', 'us-central1-docker.pkg.dev/abriendopuertas/java-backend-repo/java-backend:latest']
+
 
   # 4. Desplegar en Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
