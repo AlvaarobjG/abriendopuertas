@@ -1,0 +1,8 @@
+WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector
+Oct 30, 2025 9:52:25 AM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic
+Oct 30, 2025 9:52:25 AM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+[Warn  - 9:52:30 AM] Oct 30, 2025, 9:52:27 AM The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+null
+[Error - 9:52:54 AM] Oct 30, 2025, 9:52:54 AM Load bundle list

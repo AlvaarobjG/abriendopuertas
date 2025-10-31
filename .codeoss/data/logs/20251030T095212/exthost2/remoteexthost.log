@@ -1,0 +1,49 @@
+2025-10-30 09:53:03.044 [info] Extension host with pid 1913 started
+2025-10-30 09:53:03.044 [info] Lock '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock': Lock acquired.
+2025-10-30 09:53:03.490 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-30 09:53:03.492 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-10-30 09:53:03.492 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onWalkthrough:javaWelcome'
+2025-10-30 09:53:04.551 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:6146)
+    at 9329 (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:795051)
+    at __webpack_require__ (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:988241)
+    at 6947 (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:750296)
+    at __webpack_require__ (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:988241)
+    at 6086 (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:686700)
+    at __webpack_require__ (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:988241)
+    at 5059 (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:560695)
+    at __webpack_require__ (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:988241)
+    at 4265 (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:624679)
+    at __webpack_require__ (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:988241)
+    at /home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:988925
+    at Object.<anonymous> (/home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal/out/extension.js:2:988987)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at e._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:5519)
+    at t._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:174:22697)
+    at r._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:166:25928)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at KG.Cb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:205:1253)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-30 09:53:04.628 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-30 09:53:04.812 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-30 09:53:04.812 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-30 09:53:04.928 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-10-30 09:53:05.044 [info] Eager extensions activated
+2025-10-30 09:53:05.044 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:53:05.045 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:53:05.045 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:53:05.046 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:53:05.559 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 09:53:05.560 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 09:53:05.560 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 09:53:05.989 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:54:49.930 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalCompletionsRequested'
+2025-10-30 09:57:29.854 [info] Extension host terminating: received terminate message from renderer
+2025-10-30 09:57:29.855 [info] Lock '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-10-30 09:57:29.953 [info] Extension host with pid 1913 exiting with code 0

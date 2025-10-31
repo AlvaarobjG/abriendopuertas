@@ -1,0 +1,75 @@
+WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector
+Oct 29, 2025 5:16:16 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic
+Oct 29, 2025 5:16:16 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+Oct 29, 2025 5:16:28 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFO: Starting com.microsoft.java.debug.plugin
+Oct 29, 2025 5:42:57 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Oct 29, 2025 5:43:00 PM com.microsoft.java.debug.core.UsageDataSession recordResponse
+WARNING: abnormal response
+Oct 29, 2025 5:43:01 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Oct 29, 2025 5:43:04 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Oct 29, 2025 5:43:05 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Oct 29, 2025 5:43:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+[Error - 5:43:38 PM] Oct 29, 2025, 5:43:38 PM JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project
+'3geq' is not a valid Java identifier
+Java Model Exception: Error in Java Model (code -1): '3geq' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:383)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:474)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:225)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:496)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:387)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:207)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:164)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:332)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+Oct 29, 2025 5:43:41 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Oct 29, 2025 5:43:42 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Oct 29, 2025 5:46:14 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Oct 29, 2025 5:46:16 PM com.microsoft.java.debug.core.UsageDataSession recordResponse
+WARNING: abnormal response
+Oct 29, 2025 5:46:16 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Oct 29, 2025 5:50:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+Oct 29, 2025 5:50:47 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Oct 29, 2025 5:50:48 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary
+Oct 29, 2025 5:52:19 PM com.microsoft.java.debug.core.UsageDataSession recordInfo
+INFO: launch debug info
+Oct 29, 2025 5:52:20 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData
+INFO: session usage data summary

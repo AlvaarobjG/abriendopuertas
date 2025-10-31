@@ -1,0 +1,14 @@
+# Usamos una imagen de Java ligera
+FROM eclipse-temurin:17-jre-alpine
+
+# Directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copiamos el JAR generado
+COPY target/java-hello-world-1.0-SNAPSHOT.jar app.jar
+
+# Exponemos el puerto que usa Spark
+EXPOSE 8080
+
+# Comando para correr la app
+ENTRYPOINT ["java","-jar","app.jar"]

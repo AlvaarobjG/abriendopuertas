@@ -1,0 +1,14 @@
+# Imagen base con Java 17
+FROM eclipse-temurin:17-jdk
+
+# Directorio de trabajo
+WORKDIR /app
+
+# Copiar el jar generado por Maven
+COPY target/java-hello-world-1.0-SNAPSHOT-shaded.jar app.jar
+
+# Exponer el puerto donde SparkJava escuchará
+EXPOSE 8080
+
+# Comando para ejecutar la aplicación
+ENTRYPOINT ["java", "-jar", "app.jar"]

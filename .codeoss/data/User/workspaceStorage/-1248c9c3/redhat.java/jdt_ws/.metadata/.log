@@ -1,0 +1,2371 @@
+!SESSION 2025-10-29 17:16:14.228 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-0b291bfa198f0169e6e339b81c3b8dea.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-0b291bfa198f0169e6e339b81c3b8dea.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:19.867
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:20.540
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:20.831
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:20.837
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:20.842
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:22.834
+!MESSAGE ProjectRegistryRefreshJob finished 1992ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:22.985
+!MESSAGE Started org.eclipse.buildship.core 149ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.225
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk-amd64 as 'JavaSE-21' environment (id:1761758183157)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.249
+!MESSAGE Setting /usr/lib/jvm/java-11-openjdk-amd64 as 'JavaSE-11' environment (id:1761758183236)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.255
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk-amd64 as 'JavaSE-17' environment (id:1761758183126)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.261
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.297
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/server/com.microsoft.java.debug.plugin-0.53.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.308
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/server/com.microsoft.jdtls.ext.core-0.24.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.318
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-api_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.344
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-engine_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.352
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-migrationsupport_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.366
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-params_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.376
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-commons_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.390
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-engine_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.414
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-launcher_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.429
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-runner_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.440
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-api_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.450
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-commons_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.459
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-engine_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.466
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-vintage-engine_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.475
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.484
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit4.runtime_1.3.100.v20231214-1952.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.493
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit5.runtime_1.1.300.v20231214-1952.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.504
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.opentest4j_1.3.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.529
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.538
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/com.microsoft.java.test.plugin-0.43.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.560
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-maven/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.601
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit4.runtime_1.3.100.v20231214-1952.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.645
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-params_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.701
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit5.runtime_1.1.300.v20231214-1952.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.709
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-runner_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.712
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-launcher_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.814
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/com.microsoft.java.test.plugin-0.43.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.824
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-vintage-engine_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.825
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-api_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.846
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-migrationsupport_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.947
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/server/com.microsoft.java.debug.plugin-0.53.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.948
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.949
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-api_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:23.960
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-engine_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.030
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-maven/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.034
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-commons_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.036
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-engine_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.040
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.opentest4j_1.3.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.044
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-engine_5.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.045
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.094
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/server/com.microsoft.jdtls.ext.core-0.24.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.097
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-commons_1.11.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.114
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.124
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.125
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.125
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.131
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.131
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.132
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.132
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.132
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.133
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.184
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.247
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.341
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:24.609
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:25.847
+!MESSAGE Workspace initialized in 1663ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:25.957
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:27.645
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:28.119
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:28.120
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:28.127
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:28.317
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:28.324
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:16:28.332
+!MESSAGE Validated 1. Took 84 ms
+
+!ENTRY java-debug 1 0 2025-10-29 17:16:28.581
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:19.569
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:19.760
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:19.764
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:20.220
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:20.220
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:20.221
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:27.530
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:27.658
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:27.669
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:28.138
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:28.139
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:28.139
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:38.081
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:38.138
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:38.437
+!MESSAGE Reconciled 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:38.870
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:38.873
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:38.873
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:38.874
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:42.080
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:43.214
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:44.853
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:44.859
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:45.271
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:45.271
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:45.272
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:56.577
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:59.137
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:59.139
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:59.611
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:59.612
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:59.612
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:31:59.613
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:01.416
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:01.533
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:01.539
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:01.998
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:01.998
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:01.999
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:11.266
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:35.835
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:35.840
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:36.303
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:36.304
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:36.304
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:36.305
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:32:59.682
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:37:02.348
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:37:02.357
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:37:02.723
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:37:03.140
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:37:03.140
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:37:03.141
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:37:03.142
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:07.921
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:08.387
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:08.388
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:08.389
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:08.389
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:52.282
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:52.700
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:52.701
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:52.701
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:42:52.703
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:27.882
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:28.036
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:28.480
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:28.480
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:28.481
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:35.905
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:36.222
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:36.223
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:36.635
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:36.636
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:36.636
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:43:36.637
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-10-29 17:43:38.620
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '3geq' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:383)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:474)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:225)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:496)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:387)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:207)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:164)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:332)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2025-10-29 17:43:38.621
+!MESSAGE '3geq' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:44:04.598
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:44:05.063
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:44:05.064
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:44:05.064
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:44:05.065
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:45:59.269
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:45:59.482
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:45:59.953
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:45:59.954
+!MESSAGE The declared package "com.example.hello" does not match the expected package "" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:45:59.955
+!MESSAGE 3 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:45:59.955
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:46:05.549
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:46:05.965
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:46:05.966
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:46:05.966
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:46:05.967
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:46:27.848
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:04.185
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:04.668
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:04.669
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:04.670
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:04.670
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:15.027
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:15.195
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:15.404
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:15.774
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:16.254
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:16.731
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:16.732
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:16.732
+!MESSAGE 3 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:16.733
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:18.633
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:18.653
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:18.861
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:19.332
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:19.333
+!MESSAGE The declared package "com.example.He" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:19.333
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:19.334
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:20.084
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:20.547
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:20.548
+!MESSAGE The declared package "com.example.He" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:20.548
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:20.549
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:35.142
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:35.616
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:35.618
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:35.618
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:35.619
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:38.687
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:39.114
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:39.115
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:39.116
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:50:39.117
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:52:18.082
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:52:18.547
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:52:18.548
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:52:18.548
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-29 17:52:18.549
+!MESSAGE Validated 1. Took 17 ms
+!SESSION 2025-10-30 09:52:23.467 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-700eb64f77e043c74f189c0bca2aac9d.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-700eb64f77e043c74f189c0bca2aac9d.sock
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-10-30 09:52:27.980
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:29.988
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:30.934
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:31.014
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:31.023
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:31.051
+!MESSAGE Started org.eclipse.m2e.core 26ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.273
+!MESSAGE ProjectRegistryRefreshJob finished 2221ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.400
+!MESSAGE Started org.eclipse.buildship.core 127ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.502
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.503
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.503
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.504
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.504
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.506
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.507
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.508
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.508
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.509
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.582
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.617
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.724
+!MESSAGE Workspace initialized in 143ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:33.735
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:34.725
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:34.726
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:34.740
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:52:54.860
+!MESSAGE Installed reference:file:/home/alvaarobj/.codeoss/extensions/vscjava.vscode-gradle-3.17.0-universal/server/com.microsoft.gradle.bs.importer-0.5.4.jar
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-10-30 09:52:54.864
+!MESSAGE Load bundle list
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2025-10-30 09:52:54.864
+!MESSAGE Bundle startup failed reference:file:/home/alvaarobj/.codeoss/extensions/vscjava.vscode-gradle-3.17.0-universal/server/com.microsoft.gradle.bs.importer-0.5.4.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:463)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.startBundles(BundleUtils.java:308)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:171)
+	at org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:609)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 09:52:54.866
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1937)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:53:01.685
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:53:01.734
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:53:01.779
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 09:53:01.791
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-10-30 10:01:51.420 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-dcd2681d203e8addad295c6db40c8743.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-dcd2681d203e8addad295c6db40c8743.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 10:01:53.821
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:56.987
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:57.965
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:58.124
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:58.134
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:58.151
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.534
+!MESSAGE ProjectRegistryRefreshJob finished 1382ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.573
+!MESSAGE Started org.eclipse.buildship.core 39ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.633
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.634
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.636
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.637
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.637
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.638
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.638
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.638
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.639
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.639
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.679
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.690
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.781
+!MESSAGE Workspace initialized in 103ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:01:59.794
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:02:01.300
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:02:01.567
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:02:01.568
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:02:01.573
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY java-debug 1 0 2025-10-30 10:02:01.913
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:02:01.983
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:02:01.988
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:02:01.996
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:08:20.098
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:08:20.569
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:08:20.569
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:08:20.570
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:26.699
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:27.167
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:27.167
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:27.168
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:49.404
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:49.868
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:49.869
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:12:49.870
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:18.513
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:18.929
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:18.929
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:18.930
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:19.573
+!MESSAGE Reconciled 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:20.060
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:20.063
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:20.064
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:20.065
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:26.514
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:27.003
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:27.004
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:27.004
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:27.005
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:31.486
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:31.956
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:31.957
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:31.957
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:31.958
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:40.000
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:40.422
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:40.423
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:40.423
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:54.187
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:54.231
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:54.309
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:54.474
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:54.609
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.078
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.079
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.079
+!MESSAGE 3 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.080
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.333
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.800
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.800
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.801
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:55.801
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:57.459
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:57.923
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:57.924
+!MESSAGE The declared package "" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:57.924
+!MESSAGE 3 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:57.925
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:58.436
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:58.901
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:58.901
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:18:58.902
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:19:03.135
+!MESSAGE Maven Central search cancelled
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:33:25.670
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:33:26.145
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:33:26.145
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:33:26.146
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:33:53.815
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:34:11.058
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:34:11.115
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:34:11.579
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:34:11.580
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:34:11.580
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:35.019
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2025-10-30 10:35:35.026
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+com.microsoft.java.debug.core.DebugException: Failed to resolve main method codeLens: File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:80)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:80)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:609)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: Java Model Exception: Core Exception [code 368] File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1338)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.getMainMethod(ResolveMainMethodHandler.java:114)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.searchMainMethods(ResolveMainMethodHandler.java:99)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethodCore(ResolveMainMethodHandler.java:86)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:78)
+	... 13 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:916)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:363)
+	at org.eclipse.core.internal.utils.FileUtil.readAllChars(FileUtil.java:302)
+	at org.eclipse.core.resources.IFile.readAllChars(IFile.java:1369)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1199)
+	... 27 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:534)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	... 31 more
+Caused by: java.nio.file.NoSuchFileException: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:532)
+	... 32 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-10-30 10:35:35.029
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+com.microsoft.java.debug.core.DebugException: Failed to resolve main method codeLens: File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:80)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:80)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:609)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: Java Model Exception: Core Exception [code 368] File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1338)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:162)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.getMainMethod(ResolveMainMethodHandler.java:114)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.searchMainMethods(ResolveMainMethodHandler.java:99)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethodCore(ResolveMainMethodHandler.java:86)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:78)
+	... 13 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:916)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:363)
+	at org.eclipse.core.internal.utils.FileUtil.readAllChars(FileUtil.java:302)
+	at org.eclipse.core.resources.IFile.readAllChars(IFile.java:1369)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1199)
+	... 27 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:534)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	... 31 more
+Caused by: java.nio.file.NoSuchFileException: /home/alvaarobj/java-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:532)
+	... 32 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:35.058
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:35.061
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:35.480
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:35.480
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:35.481
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:43.792
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:43.960
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:43.973
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:44.424
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:44.424
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:44.425
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:49.979
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:49.979
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:35:49.980
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:07.548
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:07.963
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:07.966
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:07.966
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:07.967
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:11.168
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:11.634
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:11.634
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:11.635
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:17.737
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:17.770
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:18.042
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:18.309
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:18.745
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:18.754
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:19.209
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:19.210
+!MESSAGE The declared package "src.main.java.com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:19.210
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:19.211
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:20.833
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:21.012
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:21.191
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:21.593
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:22.061
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:22.062
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:22.063
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:29.235
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:29.702
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:29.702
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:29.703
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:29.766
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:29.914
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:30.017
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:30.269
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:30.732
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:30.734
+!MESSAGE The declared package "java.com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:30.734
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:30.735
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:31.758
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:32.171
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:32.171
+!MESSAGE 1 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:32.172
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-10-30 10:37:33.801
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '9gio' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:383)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:474)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:225)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:496)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:387)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:207)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:164)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:332)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2025-10-30 10:37:33.802
+!MESSAGE '9gio' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:40.731
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:41.194
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:41.196
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:41.197
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:41.197
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:44.906
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:45.383
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:45.383
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:45.384
+!MESSAGE 6 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:45.384
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:45.912
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:46.377
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:46.378
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:46.378
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:37:46.379
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:47:07.205
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:47:07.716
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:47:07.717
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:47:07.717
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:47:07.719
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:47:08.160
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:50:23.350
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:50:23.363
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:50:23.444
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:50:23.474
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-10-30 10:53:24.259 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-6dbc1cabfd97adb01a91c47e275b94e6.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-6dbc1cabfd97adb01a91c47e275b94e6.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 10:53:26.883
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:53:28.645
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-10-30 10:53:28.766
+!MESSAGE Connection refused
+!STACK 0
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.UnixDomainSockets.connect0(Native Method)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:148)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:144)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:851)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$PipeStreamProvider.initializeNamedPipe(ConnectionStreamFactory.java:117)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$PipeStreamProvider.<init>(ConnectionStreamFactory.java:89)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.createProvider(ConnectionStreamFactory.java:269)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.getSelectedStream(ConnectionStreamFactory.java:257)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.getInputStream(ConnectionStreamFactory.java:275)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startConnection(JavaLanguageServerPlugin.java:373)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startLanguageServer(JavaLanguageServerPlugin.java:471)
+	at org.eclipse.jdt.ls.core.internal.LanguageServerApplication.start(LanguageServerApplication.java:47)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.jdt.core.javac 2 0 2025-10-30 10:53:28.777
+!MESSAGE Could not resolve module: org.eclipse.jdt.core.javac [52]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=23))"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=23))"
+
+
+!ENTRY com.microsoft.gradle.bs.importer 2 0 2025-10-30 10:53:28.778
+!MESSAGE Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+
+!ENTRY org.eclipse.osgi 4 0 2025-10-30 10:53:28.779
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Input stream must be configured.
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:310)
+	at org.eclipse.lsp4j.jsonrpc.Launcher.createIoLauncher(Launcher.java:125)
+	at org.eclipse.lsp4j.jsonrpc.Launcher.createLauncher(Launcher.java:101)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startConnection(JavaLanguageServerPlugin.java:381)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startLanguageServer(JavaLanguageServerPlugin.java:471)
+	at org.eclipse.jdt.ls.core.internal.LanguageServerApplication.start(LanguageServerApplication.java:47)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:53:28.797
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-10-30 10:53:28.917
+!MESSAGE An internal error occurred during: "Initialize After Load".
+!STACK 0
+java.lang.IllegalStateException: Workspace is already closed or not ready yet. Consider tracking the org.eclipse.core.resources.IWorkspace service (using your favorite technique, e.g. Declarative Services, ServiceTracker, Blueprint, ...) instead of calling the static method here to prevent such issues!
+	at org.eclipse.core.resources.ResourcesPlugin.getWorkspace(ResourcesPlugin.java:518)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4838)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin$1.run(JavaLanguageServerPlugin.java:186)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-10-30 10:58:42.745 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-d8979a6fc46704e5ed11cd0ab4e4af19.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-d8979a6fc46704e5ed11cd0ab4e4af19.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 10:58:45.599
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:47.708
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:48.349
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:48.491
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:48.495
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:48.496
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:49.943
+!MESSAGE ProjectRegistryRefreshJob finished 1443ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:49.987
+!MESSAGE Started org.eclipse.buildship.core 43ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.068
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.071
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.072
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.073
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.073
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.077
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.080
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.081
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.081
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.083
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.145
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.306
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:50.419
+!MESSAGE Workspace initialized in 270ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:51.116
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:51.117
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:51.179
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:51.179
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:58:51.183
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:05.231
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:05.579
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:05.581
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:05.601
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-10-30 10:59:50.118 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-399b9fa24f56af4c899ea5cba15da53d.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-399b9fa24f56af4c899ea5cba15da53d.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 10:59:53.590
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:55.815
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:56.297
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:56.301
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:56.305
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:56.307
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:57.950
+!MESSAGE ProjectRegistryRefreshJob finished 1643ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.041
+!MESSAGE Started org.eclipse.buildship.core 84ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.221
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.228
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.232
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.233
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.233
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.234
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.234
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.235
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.244
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.245
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.335
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.493
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.567
+!MESSAGE Workspace initialized in 232ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.964
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:58.965
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:59.050
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:59.051
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 10:59:59.057
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:24.643
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:24.692
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:24.693
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:24.705
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-10-30 11:00:45.037 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-5df16ead2eea2e7317b1121cf35ac7a2.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-5df16ead2eea2e7317b1121cf35ac7a2.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 11:00:48.525
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:50.522
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:50.979
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:51.007
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:51.012
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:51.014
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:52.865
+!MESSAGE ProjectRegistryRefreshJob finished 1850ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:52.929
+!MESSAGE Started org.eclipse.buildship.core 63ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.031
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.049
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.050
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.051
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.052
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.052
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.053
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.054
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.055
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.055
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.108
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.290
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.359
+!MESSAGE Workspace initialized in 255ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.515
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.516
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.613
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.615
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:00:53.618
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:00.259
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:00.285
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:00.321
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:00.335
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-10-30 11:01:11.667 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-f93db4033611bfc5ec7af62b95044da9.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-f93db4033611bfc5ec7af62b95044da9.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 11:01:14.980
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:17.448
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:17.930
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:17.932
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:17.937
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:17.938
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.815
+!MESSAGE ProjectRegistryRefreshJob finished 1875ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.879
+!MESSAGE Started org.eclipse.buildship.core 62ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.962
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.962
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.964
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.980
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.982
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.982
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.983
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.984
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.985
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:19.987
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.046
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.215
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.302
+!MESSAGE Workspace initialized in 255ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.570
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.571
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.647
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.648
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:01:20.652
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:16:32.168
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:16:32.411
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2025-10-30 11:16:32.489
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:16:33.086
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:16:33.089
+!MESSAGE The declared package "com.example.hello" does not match the expected package "main.java.com.example.hello" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:16:33.094
+!MESSAGE 2 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:16:33.099
+!MESSAGE Validated 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:16:43.248
+!MESSAGE Maven Central search cancelled
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 11:18:06.708
+!MESSAGE Clearing problems for /HelloWorldApplication.java
+!SESSION 2025-10-30 16:06:24.584 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-a495cf3f70ff23094db21ef2597a79a3.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-a495cf3f70ff23094db21ef2597a79a3.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-30 16:06:28.989
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-10-30 16:06:29.427
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:31.556
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:32.467
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:34.073
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:34.080
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:34.085
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.127
+!MESSAGE ProjectRegistryRefreshJob finished 1041ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.256
+!MESSAGE Started org.eclipse.buildship.core 128ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.402
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.403
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.405
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.406
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.407
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.408
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.408
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.409
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.409
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.409
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.465
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.489
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:35.648
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:39.879
+!MESSAGE Workspace initialized in 4414ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:39.903
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:41.393
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:41.394
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:06:41.399
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:07:55.848
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:07:56.302
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY java-debug 1 0 2025-10-30 16:07:56.335
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:07:56.951
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:07:56.955
+!MESSAGE 0 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:07:56.956
+!MESSAGE Validated 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:11:14.678
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:11:14.736
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:11:15.210
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:11:15.211
+!MESSAGE 0 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:11:15.212
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:55.632
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:55.637
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:56.109
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:56.110
+!MESSAGE 0 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:56.110
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:59.180
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:59.239
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:59.711
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:19:59.718
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:20:00.185
+!MESSAGE begin problem for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:20:00.186
+!MESSAGE 0 problems reported for /HelloWorldApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-30 16:20:00.187
+!MESSAGE Validated 1. Took 16 ms
+!SESSION 2025-10-31 16:31:03.059 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.16
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-5faea7dabc2efbf633f6464ebb684dac.sock
+Command-line arguments:  -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws --pipe=/tmp/lsp-5faea7dabc2efbf633f6464ebb684dac.sock
+
+!ENTRY com.microsoft.gradle.bs.importer 4 0 2025-10-31 16:31:08.381
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-10-31 16:31:08.845
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:11.596
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:12.693
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:13.961
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:13.974
+!MESSAGE Initializing Java Language Server 1.42.0.202411150804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:13.979
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:13.987
+!MESSAGE ProjectRegistryRefreshJob finished 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:14.159
+!MESSAGE Started org.eclipse.buildship.core 170ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.415
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.422
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.423
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.424
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.424
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.431
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.432
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.432
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.435
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.436
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:16.623
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:19.488
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:19.736
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:19.831
+!MESSAGE Workspace initialized in 348ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:19.836
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:21.600
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:21.601
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-10-31 16:31:21.615
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'

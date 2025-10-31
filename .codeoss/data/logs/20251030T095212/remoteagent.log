@@ -1,0 +1,95 @@
+2025-10-30 09:52:12.704 [info] 
+
+
+
+
+2025-10-30 09:52:12.721 [info] Extension host agent started.
+2025-10-30 09:52:14.423 [info] [127.0.0.1][bd5941f5][ManagementConnection] New connection established.
+2025-10-30 09:52:14.517 [info] [127.0.0.1][8f99de39][ExtensionHostConnection] New connection established.
+2025-10-30 09:52:15.303 [info] [127.0.0.1][8f99de39][ExtensionHostConnection] <1252> Launched Extension Host Process.
+2025-10-30 09:52:44.050 [info] Getting Manifest... vscjava.vscode-java-pack
+2025-10-30 09:52:44.766 [info] Installing extension: vscjava.vscode-java-pack {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/alvaarobj/.codeoss/extensions/extensions.json","external":"file:///home/alvaarobj/.codeoss/extensions/extensions.json","path":"/home/alvaarobj/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.102.3-cde","date":"2025-10-25T07:11:07.546Z"}}
+2025-10-30 09:52:45.093 [error] #9: https://open-vsx.org/vscode/gallery/vscode/vscjava/vscode-gradle/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.093 [error] Error while getting the latest version for the extension vscjava.vscode-gradle from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.099 [error] #8: https://open-vsx.org/vscode/gallery/vscode/vscjava/vscode-maven/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.099 [error] Error while getting the latest version for the extension vscjava.vscode-maven from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.102 [error] #7: https://open-vsx.org/vscode/gallery/vscode/vscjava/vscode-java-test/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.102 [error] Error while getting the latest version for the extension vscjava.vscode-java-test from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.104 [error] #6: https://open-vsx.org/vscode/gallery/vscode/vscjava/vscode-java-debug/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.104 [error] Error while getting the latest version for the extension vscjava.vscode-java-debug from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.110 [error] #10: https://open-vsx.org/vscode/gallery/vscode/vscjava/vscode-java-dependency/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.110 [error] Error while getting the latest version for the extension vscjava.vscode-java-dependency from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.118 [error] #11: https://open-vsx.org/vscode/gallery/vscode/VisualStudioExptTeam/vscodeintellicode/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.118 [error] Error while getting the latest version for the extension VisualStudioExptTeam.vscodeintellicode from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.123 [error] #5: https://open-vsx.org/vscode/gallery/vscode/redhat/java/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.123 [error] Error while getting the latest version for the extension redhat.java from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:45.426 [info] Getting Manifest... vscjava.vscode-gradle
+2025-10-30 09:52:45.698 [info] Getting Manifest... vscjava.vscode-maven
+2025-10-30 09:52:45.941 [info] Getting Manifest... vscjava.vscode-java-debug
+2025-10-30 09:52:46.179 [info] Getting Manifest... vscjava.vscode-java-test
+2025-10-30 09:52:46.412 [error] #23: https://open-vsx.org/vscode/gallery/vscode/redhat/java/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:46.412 [error] Error while getting the latest version for the extension redhat.java from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest connect ECONNREFUSED 127.0.0.1:80
+2025-10-30 09:52:46.678 [info] Getting Manifest... redhat.java
+2025-10-30 09:52:46.842 [info] Getting Manifest... vscjava.vscode-java-dependency
+2025-10-30 09:52:47.085 [info] Installing extension: vscjava.vscode-gradle {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/alvaarobj/.codeoss/extensions/extensions.json","external":"file:///home/alvaarobj/.codeoss/extensions/extensions.json","path":"/home/alvaarobj/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.102.3-cde","date":"2025-10-25T07:11:07.546Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-30 09:52:48.208 [info] Extracted extension to file:///home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal: vscjava.vscode-java-pack
+2025-10-30 09:52:48.220 [info] Renamed to /home/alvaarobj/.codeoss/extensions/vscjava.vscode-java-pack-0.30.4-universal
+2025-10-30 09:52:54.148 [info] Extracted extension to file:///home/alvaarobj/.codeoss/extensions/vscjava.vscode-gradle-3.17.0-universal: vscjava.vscode-gradle
+2025-10-30 09:52:54.174 [info] Renamed to /home/alvaarobj/.codeoss/extensions/vscjava.vscode-gradle-3.17.0-universal
+2025-10-30 09:52:54.191 [info] Extension installed successfully: vscjava.vscode-java-pack file:///home/alvaarobj/.codeoss/extensions/extensions.json
+2025-10-30 09:52:54.191 [info] Extension installed successfully: vscjava.vscode-gradle file:///home/alvaarobj/.codeoss/extensions/extensions.json
+2025-10-30 09:52:58.076 [info] [127.0.0.1][bd5941f5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-30 09:52:59.322 [info] [127.0.0.1][7b5fdc24][ManagementConnection] New connection established.
+2025-10-30 09:52:59.492 [info] [127.0.0.1][95a31241][ExtensionHostConnection] New connection established.
+2025-10-30 09:52:59.499 [info] [127.0.0.1][95a31241][ExtensionHostConnection] <1913> Launched Extension Host Process.
+2025-10-30 09:53:01.943 [info] [127.0.0.1][8f99de39][ExtensionHostConnection] <1252> Extension Host Process exited with code: 0, signal: null.
+2025-10-30 09:57:29.818 [info] [127.0.0.1][7b5fdc24][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-30 09:57:30.000 [info] [127.0.0.1][95a31241][ExtensionHostConnection] <1913> Extension Host Process exited with code: 0, signal: null.
+2025-10-30 09:57:45.526 [info] [127.0.0.1][4839d956][ManagementConnection] New connection established.
+2025-10-30 09:57:45.632 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] New connection established.
+2025-10-30 09:57:45.637 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] <3702> Launched Extension Host Process.
+2025-10-30 10:26:40.461 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:27:00.949 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:27:21.561 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:27:42.110 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:28:02.661 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:28:23.195 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:28:43.707 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:29:04.206 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:29:25.181 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:29:53.349 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:30:13.902 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:30:34.548 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:30:55.143 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:31:15.684 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:31:36.275 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:31:57.385 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:32:18.268 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:32:38.696 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:32:59.219 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] The client has reconnected.
+2025-10-30 10:50:23.203 [info] [127.0.0.1][4839d956][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-30 10:50:23.445 [info] [127.0.0.1][7394c25e][ExtensionHostConnection] <3702> Extension Host Process exited with code: 0, signal: null.
+2025-10-30 10:53:17.486 [info] [127.0.0.1][5840f1ca][ManagementConnection] New connection established.
+2025-10-30 10:53:17.626 [info] [127.0.0.1][06a50394][ExtensionHostConnection] New connection established.
+2025-10-30 10:53:17.631 [info] [127.0.0.1][06a50394][ExtensionHostConnection] <185798> Launched Extension Host Process.
+2025-10-30 10:53:24.157 [info] [127.0.0.1][5840f1ca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-30 10:53:24.300 [info] [127.0.0.1][06a50394][ExtensionHostConnection] <185798> Extension Host Process exited with code: 0, signal: null.
+2025-10-30 10:58:35.711 [info] [127.0.0.1][d166f6a3][ManagementConnection] New connection established.
+2025-10-30 10:58:35.801 [info] [127.0.0.1][475a3f7d][ExtensionHostConnection] New connection established.
+2025-10-30 10:58:35.808 [info] [127.0.0.1][475a3f7d][ExtensionHostConnection] <186370> Launched Extension Host Process.
+2025-10-30 10:59:00.996 [info] [127.0.0.1][d166f6a3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-30 10:59:05.679 [info] [127.0.0.1][475a3f7d][ExtensionHostConnection] <186370> Extension Host Process exited with code: 0, signal: null.
+2025-10-30 10:59:43.298 [info] [127.0.0.1][08840685][ManagementConnection] New connection established.
+2025-10-30 10:59:43.439 [info] [127.0.0.1][fe6d8ffa][ExtensionHostConnection] New connection established.
+2025-10-30 10:59:43.446 [info] [127.0.0.1][fe6d8ffa][ExtensionHostConnection] <187365> Launched Extension Host Process.
+2025-10-30 11:00:21.082 [info] [127.0.0.1][08840685][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-30 11:00:24.782 [info] [127.0.0.1][fe6d8ffa][ExtensionHostConnection] <187365> Extension Host Process exited with code: 0, signal: null.
+2025-10-30 11:00:37.754 [info] [127.0.0.1][279be606][ManagementConnection] New connection established.
+2025-10-30 11:00:37.995 [info] [127.0.0.1][cf63e192][ExtensionHostConnection] New connection established.
+2025-10-30 11:00:38.007 [info] [127.0.0.1][cf63e192][ExtensionHostConnection] <188425> Launched Extension Host Process.
+2025-10-30 11:00:57.322 [info] [127.0.0.1][279be606][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-30 11:01:00.393 [info] [127.0.0.1][cf63e192][ExtensionHostConnection] <188425> Extension Host Process exited with code: 0, signal: null.
+2025-10-30 11:01:04.929 [info] [127.0.0.1][c8d77c88][ManagementConnection] New connection established.
+2025-10-30 11:01:05.064 [info] [127.0.0.1][5f0efa88][ExtensionHostConnection] New connection established.
+2025-10-30 11:01:05.069 [info] [127.0.0.1][5f0efa88][ExtensionHostConnection] <189083> Launched Extension Host Process.
+2025-10-30 13:25:57.415 [info] [127.0.0.1][c8d77c88][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

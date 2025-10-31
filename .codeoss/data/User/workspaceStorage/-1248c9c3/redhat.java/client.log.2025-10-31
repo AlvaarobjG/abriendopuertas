@@ -1,0 +1,56 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.34.jar -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/alvaarobj/.codeoss/data/User/globalStorage/redhat.java/1.37.2024111508/config_ss_linux -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:00.837'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:01.851'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java -Daether.dependencyCollector.impl=bf -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/alvaarobj/.codeoss/data/User/globalStorage/redhat.java/1.37.2024111508/config_linux -data /home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:02.024'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:02.245'
+}
+{
+  message: 'Oct 31, 2025 4:31:05 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:05.484'
+}
+{
+  message: 'Oct 31, 2025 4:31:05 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:05.506'
+}
+{
+  message: '[Error - 4:31:13 PM] Oct 31, 2025, 4:31:08 PM FrameworkEvent ERROR\n' +
+    'org.osgi.framework.BundleException: Could not resolve module: com.microsoft.gradle.bs.importer [117]\n' +
+    '  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=21))"\n' +
+    '\n' +
+    '\tat org.eclipse.osgi.container.Module.start(Module.java:493)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2102)\n' +
+    '\tat org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2093)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2033)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1996)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1912)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)\n' +
+    '\tat org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)\n' +
+    '\tat org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)\n',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:13.772'
+}
+{
+  message: '[Warn  - 4:31:13 PM] Oct 31, 2025, 4:31:08 PM The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.\n' +
+    'null',
+  level: 'info',
+  timestamp: '2025-10-31 16:31:13.788'
+}

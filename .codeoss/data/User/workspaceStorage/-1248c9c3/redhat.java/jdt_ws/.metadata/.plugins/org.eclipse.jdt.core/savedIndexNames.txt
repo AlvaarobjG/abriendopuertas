@@ -1,0 +1,24 @@
+INDEX VERSION 1.134+/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+3691082489.index
+2822323869.index
+1762578372.index
+1233999520.index
+2596272426.index
+4063094913.index
+1865797976.index
+1705762555.index
+3098602690.index
+550945168.index
+2331823035.index
+3060554980.index
+133950596.index
+3511802256.index
+2932404343.index
+3292578340.index
+2363967645.index
+2949097923.index
+3679457553.index
+2596373895.index
+814552015.index
+3668854904.index

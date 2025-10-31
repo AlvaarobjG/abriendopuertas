@@ -1,0 +1,17 @@
+2025-10-29 16:25:43.339 [info] 
+
+
+
+
+2025-10-29 16:25:43.356 [info] Extension host agent started.
+2025-10-29 16:25:43.370 [info] Started initializing default profile extensions in extensions installation folder. file:///home/alvaarobj/.codeoss/extensions
+2025-10-29 16:25:43.386 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/alvaarobj/.codeoss/extensions
+2025-10-29 16:25:46.230 [info] [127.0.0.1][d297d6b6][ManagementConnection] New connection established.
+2025-10-29 16:25:46.309 [info] [127.0.0.1][a6747972][ExtensionHostConnection] New connection established.
+2025-10-29 16:25:48.170 [info] [127.0.0.1][a6747972][ExtensionHostConnection] <1776> Launched Extension Host Process.
+2025-10-29 16:29:45.707 [info] [127.0.0.1][d297d6b6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-29 16:29:45.880 [info] [127.0.0.1][a6747972][ExtensionHostConnection] <1776> Extension Host Process exited with code: 0, signal: null.
+2025-10-29 16:38:57.072 [info] [127.0.0.1][5e32bfda][ManagementConnection] New connection established.
+2025-10-29 16:38:57.148 [info] [127.0.0.1][5c6e7627][ExtensionHostConnection] New connection established.
+2025-10-29 16:38:57.152 [info] [127.0.0.1][5c6e7627][ExtensionHostConnection] <2299> Launched Extension Host Process.
+2025-10-29 19:59:25.302 [info] [127.0.0.1][5e32bfda][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

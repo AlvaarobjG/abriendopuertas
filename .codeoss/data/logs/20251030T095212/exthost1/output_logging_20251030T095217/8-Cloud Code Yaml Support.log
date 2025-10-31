@@ -1,0 +1,5 @@
+[Error - 9:52:37 AM] (node:1859) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Error - 9:52:48 AM] Failed to load entities from /home/alvaarobj/.codeoss/extensions/.cc1b163e-09b4-41f3-b5e8-6d60f26a0b1b/package.json: Error: ENOENT: no such file or directory, open '/home/alvaarobj/.codeoss/extensions/.cc1b163e-09b4-41f3-b5e8-6d60f26a0b1b/package.json'
+[Error - 9:52:48 AM] Failed to load entities from /home/alvaarobj/.codeoss/extensions/.cc1b163e-09b4-41f3-b5e8-6d60f26a0b1b/package.nls.json: Error: ENOENT: no such file or directory, open '/home/alvaarobj/.codeoss/extensions/.cc1b163e-09b4-41f3-b5e8-6d60f26a0b1b/package.nls.json'
+[Error - 9:52:55 AM] Failed to load entities from /home/alvaarobj/.codeoss/extensions/.019f7a86-51b3-4bf2-90e4-b8f8a436f37c/package.json: Error: ENOENT: no such file or directory, open '/home/alvaarobj/.codeoss/extensions/.019f7a86-51b3-4bf2-90e4-b8f8a436f37c/package.json'

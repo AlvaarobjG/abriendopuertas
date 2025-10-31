@@ -1,0 +1,86 @@
+2025-10-30 09:52:17.725 [info] Extension host with pid 1252 started
+2025-10-30 09:52:17.725 [error] Error: EEXIST: file already exists, open '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock'
+2025-10-30 09:52:17.738 [info] Lock '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-10-30 09:52:17.742 [info] Lock '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock': The pid 2299 appears to be gone.
+2025-10-30 09:52:17.742 [info] Lock '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock': Deleting a stale lock.
+2025-10-30 09:52:17.748 [info] Lock '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock': Lock acquired.
+2025-10-30 09:52:18.236 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-30 09:52:18.237 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-10-30 09:52:18.238 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-10-30 09:52:18.238 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-10-30 09:52:18.239 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-10-30 09:52:18.813 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:6146)
+    at 9329 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:590792)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 3770 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:426638)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 7291 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:419625)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 5290 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:419375)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 2493 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:578858)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 1566 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:576296)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 5241 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:433552)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 4265 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:469618)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at 7460 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:430780)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804213)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804717
+    at Object.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/dist/extension.bundle.js:2:804743)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at e._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:5519)
+    at t._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:174:22697)
+    at r._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:166:25928)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/main.js:8:19)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at e._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:5519)
+    at t._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:174:22697)
+    at r._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:166:25928)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at KG.Cb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:205:1253)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-30 09:52:19.267 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-30 09:52:19.395 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 09:52:19.395 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 09:52:19.395 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 09:52:19.634 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-30 09:52:19.634 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-30 09:52:19.864 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2025-10-30 09:52:20.149 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-10-30 09:52:20.202 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-10-30 09:52:20.349 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onCommand:cloudcode.gemini.chatView.focus'
+2025-10-30 09:52:22.581 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-10-30 09:52:22.641 [info] Eager extensions activated
+2025-10-30 09:52:22.642 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:52:22.643 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:52:22.643 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:52:22.643 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:52:22.644 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 09:52:54.922 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-10-30 09:52:58.102 [info] Extension host terminating: received terminate message from renderer
+2025-10-30 09:52:58.102 [info] Lock '/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-10-30 09:53:01.719 [error] Error: Channel has been closed
+    at n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:2816)
+    at Object.info (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:3161)
+    at T.info (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:316865)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:540511)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-10-30 09:53:01.721 [info] Extension host with pid 1252 exiting with code 0

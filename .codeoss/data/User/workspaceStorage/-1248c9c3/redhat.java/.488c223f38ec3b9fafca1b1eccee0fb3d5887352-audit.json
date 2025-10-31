@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/.488c223f38ec3b9fafca1b1eccee0fb3d5887352-audit.json",
+    "files": [
+        {
+            "date": 1761758172850,
+            "name": "/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/client.log.2025-10-29",
+            "hash": "28dc502f83a80ba70d51d484084b479091fb3ba4e4f22d433b49fee671019b7c"
+        },
+        {
+            "date": 1761817939764,
+            "name": "/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/client.log.2025-10-30",
+            "hash": "4eb719611fe76d28cc667698ede2677a9893d09173355c92ab2be8a30aba2694"
+        },
+        {
+            "date": 1761928260182,
+            "name": "/home/alvaarobj/.codeoss/data/User/workspaceStorage/-1248c9c3/redhat.java/client.log.2025-10-31",
+            "hash": "01b136c0bf442044423f767d934f6eb3a36603caddc457f35c4735f0b623f9cf"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,42 @@
+2025-10-30 10:53:22.100 [info] [main] Log level: Info
+2025-10-30 10:53:22.100 [info] [main] Validating found git in: "git"
+2025-10-30 10:53:22.100 [info] [main] Using git "2.43.0" from "git"
+2025-10-30 10:53:22.100 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-30 10:53:22.100 [info] > git rev-parse --show-toplevel [867ms]
+2025-10-30 10:53:22.100 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.100 [info] > git rev-parse --show-toplevel [3ms]
+2025-10-30 10:53:22.100 [info] fatal: invalid gitfile format: /home/alvaarobj/java-hello-world/.git
+2025-10-30 10:53:22.100 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.100 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.108 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.108 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.113 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.113 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.118 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-30 10:53:22.118 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.124 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.124 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.129 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.129 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.134 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.134 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.142 [info] > git rev-parse --show-toplevel [3ms]
+2025-10-30 10:53:22.142 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.148 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.148 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.153 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.153 [info] fatal: invalid gitfile format: /home/alvaarobj/java-hello-world/.git
+2025-10-30 10:53:22.158 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-30 10:53:22.158 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-10-30 10:53:22.159 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
